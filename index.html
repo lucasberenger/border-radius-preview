@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Radius Preview</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <script src="https://kit.fontawesome.com/4e522e190a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>
+        Border Radius Preview
+    </h1>
+  </header>
+  <main>
+    <div id="container">
+        <div id="figure"></div>
+        
+        <form action="" id="border-settings">
+        
+            <div id="border-top-settings">
+                <label for="top-left">Top Left</label>
+                <input type="text" pattern="[0-9]*" name="top-left" id="top-left" min="1">
+                <label for="top-left">Top Right</label>
+                <input type="text" pattern="[0-9]*" name="top-right" id="top-right" min="1">
+            </div>
+            <div id="border-bottom-settings">
+                <label for="bottom-left">Bottom Left</label>
+                <input type="text" pattern="[0-9]*" name="bottom-left" id="bottom-left" min="1">
+                <label for="bottom-right">Bottom Right</label>
+                <input type="text" pattern="[0-9]*" name="bottom-right" id="bottom-right" min="1">
+            </div>
+        </form>
+    </div>
+
+    <div id="code-box">
+        <div id="get-code">CSS code in here</div>
+        <button type="button">Copy CSS Code!</button>
+        <div id="copy-success" class="fade-in"><p>Copied!</p></div>
+    </div>
+
+</main>
+        
+
+<footer>
+    <div id="socials">
+        <p>Get in Touch</p>
+        <div class="icons">
+            <a href="https://github.com/lucasberenger" target="_blank"><i class="fa-brands fa-github fa-2x" style="color: #ffffff;"></i></a>
+            <a href="https://www.linkedin.com/in/lucas-berenger/" target="_blank"><i class="fa-brands fa-linkedin fa-2x" style="color: #ffffff;"></i></a>
+        </div>
+    </div>
+
+    <p>
+        Made by Lucas Berenger
+    </p>
+
+</footer>
+
+      
+
+</body>
+</html>
